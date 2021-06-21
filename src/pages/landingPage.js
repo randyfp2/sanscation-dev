@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Header from 'parts/header'
+import { render } from '@testing-library/react';
 
-export default function landingPage() {
+export default class landingPage extends Component {
+  render() {
     return (
-        <div>
-            
-        </div>
-    )
+    <>
+       <Header {...this.props}></Header>
+     </> 
+     );
+    }
 }
