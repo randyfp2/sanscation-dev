@@ -11122,7 +11122,23 @@ header .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
 }
 
 section {
+  font-family: "Poppins", sans-serif;
   margin-bottom: 70px;
+}
+
+section .btn-primary {
+  color: #fff;
+  font-weight: 500;
+}
+
+section .btn-primary:hover {
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+  font-weight: 500;
+}
+
+section h1 {
+  font-size: 36px;
 }
 
 .img-cover {

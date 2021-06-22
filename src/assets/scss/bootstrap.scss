@@ -65,6 +65,8 @@ margin-bottom: 50px;
     text-decoration: none;
   }
 }
+
+
   .navbar {
     height: 80px;
     list-style-type: none;
@@ -93,7 +95,22 @@ margin-bottom: 50px;
 }
 
 section {
+  font-family: "Poppins", sans-serif;
   margin-bottom: 70px;
+
+  .btn-primary{
+    color: #fff;
+    font-weight: 500; 
+    &:hover {
+      transition: all .5s linear;
+      font-weight: 500; 
+    }
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
 }
 
 .img-cover {
