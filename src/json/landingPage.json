@@ -9,51 +9,51 @@
       "_id": "asd1293uasdads1",
       "name": "Jung Hook Sie",
       "type": "Apartment",
-      "imageUrl": "/images/image-mostpicked-1.jpg",
+      "imageUrl": "/images/mostpick1.png",
       "country": "South Korea",
       "city": "Seoul Flore",
       "price": "80",
-      "unit": "night"
+      "unit": "Malam"
     },
     {
       "_id": "asd1293uasdads1",
       "name": "The People House",
       "type": "Hotel",
-      "imageUrl": "/images/image-mostpicked-2.jpg",
+      "imageUrl": "/images/mostpick2.png",
       "country": "Indonesia",
       "city": "Bogor",
       "price": "52",
-      "unit": "night"
+      "unit": "Malam"
     },
     {
       "_id": "asd1293uasdads1",
       "name": "House Tour",
       "type": "Rumah",
-      "imageUrl": "/images/image-mostpicked-3.jpg",
+      "imageUrl": "/images/mostpick3.png",
       "country": "South Korea",
       "city": "Seoul Flore",
       "price": "80",
-      "unit": "night"
+      "unit": "Malam"
     },
     {
       "_id": "asd1293uasdads1",
       "name": "Jung Hook Sie",
       "type": "Apartment",
-      "imageUrl": "/images/image-mostpicked-4.jpg",
+      "imageUrl": "/images/mostpick4.png",
       "country": "South Korea",
       "city": "Seoul Flore",
       "price": "80",
-      "unit": "night"
+      "unit": "Malam"
     },
     {
       "_id": "asd1293uasdads1",
       "name": "Jung Hook Sie",
       "type": "Apartment",
-      "imageUrl": "/images/image-mostpicked-5.jpg",
+      "imageUrl": "/images/mostpick5.png",
       "country": "South Korea",
       "city": "Seoul Flore",
       "price": "80",
-      "unit": "night"
+      "unit": "Malam"
     }
   ],
   "categories": [
@@ -64,7 +64,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-1.jpg",
+          "imageUrl": "/images/mostpick1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -72,7 +72,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-2.jpg",
+          "imageUrl": "/images/mostpick2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -80,7 +80,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/image-category-3.jpg",
+          "imageUrl": "/images/mostpick3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -88,7 +88,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-4.jpg",
+          "imageUrl": "/images/mostpick4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false

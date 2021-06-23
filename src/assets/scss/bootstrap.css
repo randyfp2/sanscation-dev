@@ -11166,7 +11166,7 @@ section h1 {
 .card .tag {
   z-index: 3;
   font-size: 0.875rem;
-  background-color: #ff498b;
+  background-color: #FC5185;
   padding: 0.25rem 1.25rem;
   position: absolute;
   top: 0;
@@ -11193,12 +11193,15 @@ section h1 {
 }
 
 .card .meta-wrapper h5 {
-  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-size: 1.225rem;
+  font-weight: 600;
   margin-bottom: 2px;
 }
 
 .card .meta-wrapper span {
-  font-size: 0.875rem;
+  font-size: 0.700rem;
+  font-weight: 400;
 }
 
 .card.card-featured {
