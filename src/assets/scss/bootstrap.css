@@ -11155,6 +11155,23 @@ section h1 {
   width: 100%;
 }
 
+.section-category .meta-wrapper {
+  margin-top: 1rem;
+}
+
+.section-category .meta-wrapper h5 {
+  text-transform: uppercase;
+  font-size: 1.225rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+  color: #364F6B;
+}
+
+.section-category .meta-wrapper span {
+  font-size: 0.700rem;
+  font-weight: 400;
+}
+
 .card {
   border-radius: 15px;
 }
@@ -11282,6 +11299,85 @@ section h1 {
 }
 
 .card.card-featured:hover .img-wrapper {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.card.card-category {
+  overflow: hidden;
+  cursor: pointer;
+  height: 100%;
+}
+
+.card.card-category:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s -webkit-transform ease-in-out;
+  transition: 0.5s -webkit-transform ease-in-out;
+  transition: 0.5s transform ease-in-out;
+  transition: 0.5s transform ease-in-out, 0.5s -webkit-transform ease-in-out;
+  z-index: 2;
+}
+
+.card.card-category .img-wrapper {
+  z-index: 1;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.25s -webkit-transform ease-in-out;
+  transition: 0.25s -webkit-transform ease-in-out;
+  transition: 0.25s transform ease-in-out;
+  transition: 0.25s transform ease-in-out, 0.25s -webkit-transform ease-in-out;
+}
+
+.card.card-category .meta-wrapper {
+  z-index: 5;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: 0.3s -webkit-transform ease-in-out;
+  transition: 0.3s -webkit-transform ease-in-out;
+  transition: 0.3s transform ease-in-out;
+  transition: 0.3s transform ease-in-out, 0.3s -webkit-transform ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card.card-category:hover .meta-wrapper {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.card.card-category:hover:after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.card.card-category:hover .img-wrapper {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
