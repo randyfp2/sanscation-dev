@@ -64,7 +64,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/images/mostpick1.png",
+          "imageUrl": "/images/rumahtaman1.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -72,7 +72,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/mostpick2.png",
+          "imageUrl": "/images/rumahtaman2.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -80,7 +80,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/mostpick3.png",
+          "imageUrl": "/images/rumahtaman3.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -88,7 +88,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/mostpick4.png",
+          "imageUrl": "/images/rumahtaman4.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -102,7 +102,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-5.jpg",
+          "imageUrl": "/images/hotel1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -110,7 +110,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-6.jpg",
+          "imageUrl": "/images/hotel2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -118,7 +118,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/image-category-7.jpg",
+          "imageUrl": "/images/hotel3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -126,7 +126,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-8.jpg",
+          "imageUrl": "/images/hotel4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -140,7 +140,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-9.jpg",
+          "imageUrl": "/images/apart1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -148,7 +148,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-10.jpg",
+          "imageUrl": "/images/apart2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -156,7 +156,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/image-category-11.jpg",
+          "imageUrl": "/images/apart3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -164,7 +164,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-12.jpg",
+          "imageUrl": "/images/apart4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false

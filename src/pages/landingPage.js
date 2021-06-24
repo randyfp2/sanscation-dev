@@ -4,6 +4,7 @@ import { render } from "@testing-library/react";
 import homePageJSON from "json/landingPage";
 import Hero from "parts/hero";
 import MostPicked from "parts/mostPicked";
+import SectionCategories from "parts/sectionCategories";
 
 export default class landingPage extends Component {
   constructor(props) {
@@ -20,6 +21,7 @@ export default class landingPage extends Component {
           refMostPicked={this.refMostPicked}
           data={homePageJSON.mostPicked}
         />
+        <SectionCategories data={homePageJSON.categories} />
       </>
     );
   }
