@@ -23,7 +23,7 @@ export default function sectionCategories({ data }) {
                   <div className="card card-category">
                     {item.isPopular && (
                       <div className="tag">
-                        <span className="font-weight-light">Pilihan</span>
+                        <span className="font-weight-light">Pilihan </span>
                         Popular
                       </div>
                     )}

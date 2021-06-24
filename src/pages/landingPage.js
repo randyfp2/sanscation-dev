@@ -5,6 +5,7 @@ import homePageJSON from "json/landingPage";
 import Hero from "parts/hero";
 import MostPicked from "parts/mostPicked";
 import SectionCategories from "parts/sectionCategories";
+import Testimoni from "parts/testimoni";
 
 export default class landingPage extends Component {
   constructor(props) {
@@ -22,6 +23,7 @@ export default class landingPage extends Component {
           data={homePageJSON.mostPicked}
         />
         <SectionCategories data={homePageJSON.categories} />
+        <Testimoni data={homePageJSON.testimonial} />
       </>
     );
   }

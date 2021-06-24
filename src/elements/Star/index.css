@@ -1,0 +1,27 @@
+.stars {
+  position: relative;
+  min-width: 200px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.stars .star {
+  position: absolute;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-mask: url(../../assets/images/star.svg) no-repeat center left;
+          mask: url(../../assets/images/star.svg) no-repeat center left;
+}
+
+.stars .star:not(.placeholder) {
+  z-index: 2;
+  background-color: #ff498b;
+}
+
+.stars .star.placeholder {
+  z-index: 1;
+  background-color: #e9ecef;
+}
+/*# sourceMappingURL=index.css.map */
