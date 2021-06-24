@@ -11393,6 +11393,21 @@ footer {
   padding-top: 50px;
 }
 
+footer .brand-text-icon {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3FC1C9;
+}
+
+footer .brand-text-icon .cation {
+  font-weight: 500;
+}
+
+footer .brand-text-icon:hover {
+  color: #3FC1C9;
+  text-decoration: none;
+}
+
 footer .brand-tagline {
   margin-top: 8px;
   color: #b0b0b0;
@@ -11415,7 +11430,7 @@ footer .list-group-item a:hover, footer .list-group-item a:focus {
 }
 
 footer .copyrights {
-  margin: 50px 0;
+  margin: 5px 0;
   font-weight: 300;
   color: #b0b0b0;
 }
