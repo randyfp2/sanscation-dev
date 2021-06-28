@@ -1,0 +1,45 @@
+.input-number .input-group {
+  background-color: #fff;
+}
+
+.input-number .input-group .input-group-text {
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  padding: 0;
+  border-radius: 4px !important;
+  font-size: 24px;
+  width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.input-number .input-group .input-group-text.minus {
+  background-color: #e74c3c;
+}
+
+.input-number .input-group .input-group-text.plus {
+  background-color: #3FC1C9;
+}
+
+.input-number .input-group input.form-control {
+  min-height: 45px;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #f8f9fa;
+  padding: 0.575rem 1rem;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

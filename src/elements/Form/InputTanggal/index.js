@@ -54,6 +54,11 @@ export default function Date(props) {
       className={["input-date mb-3", props.outerClassName].join(" ")}
     >
       <div className="input-group">
+        <div className="input-group-prepend bg-gray-900">
+          <span className="input-group-text">
+            <img className="kalender" src={iconCalendar} alt="icon calendar" />
+          </span>
+        </div>
         <input
           readOnly
           type="text"
@@ -62,7 +67,6 @@ export default function Date(props) {
           placeholder={placeholder}
           onClick={() => setIsShowed(!isShowed)}
         />
-
         {isShowed && (
           <div className="date-range-wrapper">
             <DateRange
@@ -74,11 +78,6 @@ export default function Date(props) {
             />
           </div>
         )}
-        <div className="input-group-prepend bg-gray-900">
-          <span className="input-group-text">
-            <img className="kalender" src={iconCalendar} alt="icon calendar" />
-          </span>
-        </div>
       </div>
     </div>
   );

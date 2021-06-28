@@ -11181,6 +11181,33 @@ section h1 {
   border: 1px solid #e9ecef;
 }
 
+.card.bordered h5 {
+  color: #3FC1C9;
+  font-weight: 600;
+}
+
+.card.bordered h6 {
+  font-size: 16px;
+}
+
+.card.bordered span {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.card.bordered .btn {
+  color: white;
+}
+
+.card.bordered label {
+  font-size: 16px;
+}
+
+.card.bordered input {
+  font-weight: 600;
+  color: #364F6B;
+}
+
 .card .tag {
   z-index: 3;
   font-size: 0.875rem;
@@ -11439,5 +11466,11 @@ footer .copyrights {
 main p {
   color: #b0b0b0;
   font-weight: 300;
+  font-size: 16px;
+}
+
+main .bagian-fitur span {
+  font-size: 16px;
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=bootstrap.css.map */
