@@ -7,6 +7,7 @@ import MostPicked from "parts/mostPicked";
 import SectionCategories from "parts/sectionCategories";
 import Testimoni from "parts/testimoni";
 import Footer from "parts/Footer";
+import Fade from "react-reveal/Fade";
 
 export default class landingPage extends Component {
   constructor(props) {
@@ -14,18 +15,31 @@ export default class landingPage extends Component {
     this.refMostPicked = React.createRef();
   }
 
+  componentDidMount() {
+    window.title = "Sanscation | Home";
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <>
         <Header {...this.props}></Header>
-        <Hero refMostPicked={this.refMostPicked} data={homePageJSON.hero} />
-        <MostPicked
-          refMostPicked={this.refMostPicked}
-          data={homePageJSON.mostPicked}
-        />
+        <Fade bottom>
+          <Hero refMostPicked={this.refMostPicked} data={homePageJSON.hero} />
+        </Fade>
+        <Fade bottom>
+          <MostPicked
+            refMostPicked={this.refMostPicked}
+            data={homePageJSON.mostPicked}
+          />
+        </Fade>
         <SectionCategories data={homePageJSON.categories} />
-        <Testimoni data={homePageJSON.testimonial} />
-        <Footer />
+        <Fade bottom>
+          <Testimoni data={homePageJSON.testimonial} />
+        </Fade>{" "}
+        <Fade bottom>
+          <Footer />
+        </Fade>
       </>
     );
   }
