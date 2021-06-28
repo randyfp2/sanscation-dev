@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Header from "parts/header";
 import DetailJudul from "parts/halDetailJudul";
+import FeaturedImage from "parts/halDetailFeaturedImage";
 import DetailsPageJSON from "json/itemDetails";
 
 export default class halamanDetail extends Component {
@@ -21,6 +22,7 @@ export default class halamanDetail extends Component {
           breadcrumb={breadcrumbdata}
           data={DetailsPageJSON}
         ></DetailJudul>
+        <FeaturedImage data={DetailsPageJSON.imageUrls} />
       </>
     );
   }

@@ -5,15 +5,15 @@
   "imageUrls": [
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/img-featured-1.jpg"
+      "url": "/images/detail1.png"
     },
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/img-featured-2.jpg"
+      "url": "/images/detail2.png"
     },
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/img-featured-3.jpg"
+      "url": "/images/detail3.png"
     }
   ],
   "country": "Indonesia",

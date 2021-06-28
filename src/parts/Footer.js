@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <footer>
       <div className="container mb-5">
-        <div className="row align-items-center">
-          <div className="col align-items-center" style={{ width: 350 }}>
+        <div className="row">
+          <div className="col align-item-center" style={{ width: 350 }}>
             <IconText />
             <p className="brand-tagline">
               Sanscation, Cara paling asik buat lo kalo lagi pengen Sans.
