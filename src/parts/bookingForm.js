@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
+import Fade from "react-reveal/Fade";
 
 import propTypes from "prop-types";
 
 import Button from "elements/Button";
 import { InputNumber, InputDate } from "elements/Form";
+import formatNumber from "utils/formatNumber";
 
 export default class bookingForm extends Component {
   constructor(props) {
@@ -82,53 +84,58 @@ export default class bookingForm extends Component {
     const { itemDetails } = this.props;
 
     return (
-      <div className="card bordered" style={{ padding: "50px 70px" }}>
-        <h4 className="mb-3">Reservasi Sekarang</h4>
-        <h5 className="h2 mb-4">
-          IDR {itemDetails.price}{" "}
-          <span className="text-gray-500 font-weight-light">
-            / {itemDetails.unit}
-          </span>
-        </h5>
+      <Fade bottom delay={600}>
+        <div className="card bordered" style={{ padding: "40px 50px" }}>
+          <h4 className="mb-3">Reservasi Sekarang</h4>
+          <h5 className="h2 mb-4">
+            IDR {formatNumber(itemDetails.price)}{" "}
+            <span
+              className="text-gray-500 font-weight-light"
+              style={{ fontSize: "24px" }}
+            >
+              / {itemDetails.unit}
+            </span>
+          </h5>
 
-        <label htmlFor="duration">Jadi mau menginap berapa malam nih ?</label>
-        <InputNumber
-          max={30}
-          suffix={" Malam"}
-          isSuffixPlural
-          onChange={this.updateData}
-          name="duration"
-          value={data.duration}
-        />
+          <label htmlFor="duration">Jadi mau menginap berapa malam nih ?</label>
+          <InputNumber
+            max={30}
+            suffix={" Malam"}
+            isSuffixPlural
+            onChange={this.updateData}
+            name="duration"
+            value={data.duration}
+          />
 
-        <label htmlFor="date">Mau tanggal berapa nih ?</label>
-        <InputDate onChange={this.updateData} name="date" value={data.date} />
+          <label htmlFor="date">Mau tanggal berapa nih ?</label>
+          <InputDate onChange={this.updateData} name="date" value={data.date} />
 
-        <h6
-          className="text-gray-500 font-weight-light"
-          style={{ marginBottom: 40 }}
-        >
-          Total yang harus kamu bayar{" "}
-          <span className="text-gray-900">
-            IDR {itemDetails.price * data.duration}
-          </span>{" "}
-          untuk{" "}
-          <span className="text-gray-900">
-            {data.duration} {itemDetails.unit}
-          </span>{" "}
-          yaa
-        </h6>
+          <h6
+            className="text-gray-500 font-weight-light"
+            style={{ marginBottom: 40 }}
+          >
+            Total yang harus kamu bayar{" "}
+            <span className="text-gray-900">
+              IDR {formatNumber(itemDetails.price * data.duration)}
+            </span>{" "}
+            untuk{" "}
+            <span className="text-gray-900">
+              {data.duration} {itemDetails.unit}
+            </span>{" "}
+            yaa
+          </h6>
 
-        <Button
-          className="btn"
-          hasShadow
-          isPrimary
-          isBlock
-          onClick={this.startBooking}
-        >
-          Reservasi
-        </Button>
-      </div>
+          <Button
+            className="btn"
+            hasShadow
+            isPrimary
+            isBlock
+            onClick={this.startBooking}
+          >
+            Reservasi
+          </Button>
+        </div>
+      </Fade>
     );
   }
 }

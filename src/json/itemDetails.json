@@ -1,6 +1,6 @@
 {
   "_id": "asd1293uasdads1",
-  "name": "Village Angga",
+  "name": "Nirwana Resort",
   "type": "Hotel",
   "imageUrls": [
     {
@@ -18,8 +18,8 @@
   ],
   "country": "Indonesia",
   "city": "Bogor",
-  "price": "52",
-  "unit": "night",
+  "price": "1000000",
+  "unit": "malam",
   "isPopular": true,
   "hasBackyard": true,
   "description": "<p>Minimal techno is a minimalist subgenre of techno music. It ischaracterized by a stripped-down aesthetic that exploits the use ofrepetition and understated development. Minimal techno is thought tohave been originally developed in the early 1990s by Detroit-basedproducers Robert Hood and Daniel Bell.</p><p>Such trends saw the demise of the soul-infused techno that typified theoriginal Detroit sound. Robert Hood has noted that he and Daniel Bellboth realized something was missing from techno in the post-rave era.</p><p>Design is a plan or specification for the construction of an object orsystem or for the implementation of an activity or process, or theresult of that plan or specification in the form of a prototype, productor process. The national agency for design: enabling Singapore to usedesign for economic growth and to make lives better.</p>",
@@ -107,7 +107,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/images/treasure-1.jpg",
+          "imageUrl": "/images/detail-fitur1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -115,7 +115,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/treasure-2.jpg",
+          "imageUrl": "/images/detail-fitur2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -123,7 +123,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/treasure-3.jpg",
+          "imageUrl": "/images/detail-fitur3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -131,7 +131,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/treasure-4.jpg",
+          "imageUrl": "/images/detail-fitur4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -141,11 +141,11 @@
   ],
   "testimonial": {
     "_id": "asd1293uasdads1",
-    "imageUrl": "/images/testimonial-detailspage.jpg",
-    "name": "Happy Family",
+    "imageUrl": "/images/detail-testimoni.png",
+    "name": "Pelayananya Gokil Banget !",
     "rate": 4.25,
-    "content": "What a great trip with my family and I should try again and again next time soon...",
-    "familyName": "Angga",
-    "familyOccupation": "UI Designer"
+    "content": "Tinggal klik klik doang, gak ribet , eh tiba tiba kita udah traveling aja, bener bener sesuai namanya Sanscation, bakal pake Sanscation lagi buat next trip deh ... :)",
+    "familyName": "Aldo",
+    "familyOccupation": "Bandung"
   }
 }

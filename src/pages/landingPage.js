@@ -27,17 +27,17 @@ export default class landingPage extends Component {
         <Fade bottom>
           <Hero refMostPicked={this.refMostPicked} data={homePageJSON.hero} />
         </Fade>
-        <Fade bottom>
+        <Fade bottom delay={400}>
           <MostPicked
             refMostPicked={this.refMostPicked}
             data={homePageJSON.mostPicked}
           />
         </Fade>
         <SectionCategories data={homePageJSON.categories} />
-        <Fade bottom>
+        <Fade bottom bottomdelay={600}>
           <Testimoni data={homePageJSON.testimonial} />
         </Fade>{" "}
-        <Fade bottom>
+        <Fade bottom bottom>
           <Footer />
         </Fade>
       </>

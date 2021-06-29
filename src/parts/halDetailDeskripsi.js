@@ -4,9 +4,9 @@ import Fade from "react-reveal/Fade";
 
 export default function halDetailDeskripsi({ data }) {
   return (
-    <Fade bottom>
+    <Fade bottom delay={500}>
       <main>
-        <h4>About the place</h4>
+        <h4>Tentang tempat ini</h4>
         {ReactHtmlParser(data.description)}
         <div className="row" style={{ marginTop: 30 }}>
           {/* logic bagian fitur hotel/rumah */}
