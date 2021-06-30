@@ -72,8 +72,8 @@ export default function Text(props) {
 Text.defaultProps = {
   type: "text",
   pattern: "",
-  placeholder: "Please type here...",
-  errorResponse: "Please match the requested format.",
+  placeholder: "Ketik disini...",
+  errorResponse: "Tolong sesuaikan dengan formatnya.",
 };
 
 Text.propTypes = {
