@@ -1,0 +1,88 @@
+ol.stepper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+ol.stepper li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+ol.stepper li:after {
+  position: absolute;
+  content: "";
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-image: url('data:image/svg+xml;utf8,<svg width="30" height="21" viewBox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.62961 8.52668L7.82252 17.2306C8.46805 18.3126 9.94113 18.5354 10.8778 17.6927L27.1842 3.02177" stroke="white" stroke-width="4" stroke-linecap="round"/></svg>');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #3FC1C9;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.35s -webkit-transform ease-in-out;
+  transition: 0.35s -webkit-transform ease-in-out;
+  transition: 0.35s transform ease-in-out;
+  transition: 0.35s transform ease-in-out, 0.35s -webkit-transform ease-in-out;
+}
+
+ol.stepper li:not(:last-child) {
+  margin-right: 60px;
+}
+
+ol.stepper li:not(:last-child):before {
+  content: "";
+  z-index: -2;
+  top: 50%;
+  left: 100%;
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  background-color: #e9ecef;
+}
+
+ol.stepper li.active {
+  background-color: #e9ecef;
+  color: #b0b0b0;
+}
+
+ol.stepper li.active:after {
+  z-index: -1;
+  background: #fff;
+  border: 1px solid #e9ecef;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+ol.stepper li.active ~ li {
+  color: #b0b0b0;
+  background: #e9ecef;
+}
+
+ol.stepper li.active ~ li:after {
+  content: none;
+}
+/*# sourceMappingURL=index.css.map */

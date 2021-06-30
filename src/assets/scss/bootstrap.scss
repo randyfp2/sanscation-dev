@@ -390,3 +390,65 @@ main {
     }
   }
 }
+
+.checkout-text {
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+  }
+  p {
+    font-weight: lighter;
+    font-size: 18px;
+  }
+}
+
+.checkout-container{
+Label {
+  font-size: 16px;
+  font-weight: normal;
+}
+}
+
+.desc-harga {
+  span {
+    font-weight: 500;
+    color: #FC5185;
+    .per-malam{
+      font-weight: 300;
+    }
+  }
+}
+
+.style-transfer {
+  font-size: 18px;
+  .judul{
+    font-weight: 600;
+  }
+  .total-harga {
+    font-weight: 700;
+    color: #FC5185;
+  }
+
+}
+
+.desc-sukses{
+  .selesai-img{
+    display: block;
+    margin-left: -70px;
+    margin-right: 100px;
+    width:140%;
+    height: 530px;
+  }
+  
+  
+p{
+  font-size: 16px;
+  font-weight: 300;
+}
+}
+
+.btn-balik{
+  background-color: #FC5185;
+  color: white;
+}
+

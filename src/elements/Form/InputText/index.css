@@ -1,0 +1,65 @@
+.input-text {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.input-text .input-group {
+  background-color: #fff;
+}
+
+.input-text .input-group .input-group-text {
+  pointer-events: none;
+  border: 0;
+  cursor: auto;
+  padding: 0;
+  border-radius: 4px !important;
+  width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #364F6B;
+  position: absolute;
+  z-index: 999;
+}
+
+.input-text .input-group .form-control {
+  border: 0;
+  border-radius: 4px;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #f8f9fa;
+  padding: 0.575rem 14px;
+  width: 100%;
+  height: 45px;
+}
+
+.input-text .input-group .form-control::-webkit-input-placeholder {
+  color: #e9ecef;
+}
+
+.input-text .input-group .form-control:-ms-input-placeholder {
+  color: #e9ecef;
+}
+
+.input-text .input-group .form-control::-ms-input-placeholder {
+  color: #e9ecef;
+}
+
+.input-text .input-group .form-control::placeholder {
+  color: #e9ecef;
+}
+
+.input-text .error-helper {
+  position: absolute;
+  top: 45px;
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 0 2px;
+  font-size: 0.675rem;
+}
+/*# sourceMappingURL=index.css.map */
