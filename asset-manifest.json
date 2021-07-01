@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/sanscation-dev/static/css/main.1a3f0a58.chunk.css",
+    "main.js": "/sanscation-dev/static/js/main.95533fd1.chunk.js",
+    "main.js.map": "/sanscation-dev/static/js/main.95533fd1.chunk.js.map",
+    "runtime-main.js": "/sanscation-dev/static/js/runtime-main.c753f0e3.js",
+    "runtime-main.js.map": "/sanscation-dev/static/js/runtime-main.c753f0e3.js.map",
+    "static/css/2.c2e18bb2.chunk.css": "/sanscation-dev/static/css/2.c2e18bb2.chunk.css",
+    "static/js/2.f537f586.chunk.js": "/sanscation-dev/static/js/2.f537f586.chunk.js",
+    "static/js/2.f537f586.chunk.js.map": "/sanscation-dev/static/js/2.f537f586.chunk.js.map",
+    "static/js/3.e4bb4b1b.chunk.js": "/sanscation-dev/static/js/3.e4bb4b1b.chunk.js",
+    "static/js/3.e4bb4b1b.chunk.js.map": "/sanscation-dev/static/js/3.e4bb4b1b.chunk.js.map",
+    "index.html": "/sanscation-dev/index.html",
+    "static/css/2.c2e18bb2.chunk.css.map": "/sanscation-dev/static/css/2.c2e18bb2.chunk.css.map",
+    "static/css/main.1a3f0a58.chunk.css.map": "/sanscation-dev/static/css/main.1a3f0a58.chunk.css.map",
+    "static/js/2.f537f586.chunk.js.LICENSE.txt": "/sanscation-dev/static/js/2.f537f586.chunk.js.LICENSE.txt",
+    "static/media/completed.1ec40552.png": "/sanscation-dev/static/media/completed.1ec40552.png",
+    "static/media/hBanner.62cfce5d.png": "/sanscation-dev/static/media/hBanner.62cfce5d.png",
+    "static/media/index.scss": "/sanscation-dev/static/media/star.42cb5d87.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c753f0e3.js",
+    "static/css/2.c2e18bb2.chunk.css",
+    "static/js/2.f537f586.chunk.js",
+    "static/css/main.1a3f0a58.chunk.css",
+    "static/js/main.95533fd1.chunk.js"
+  ]
+}
