@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import landingPage from "pages/landingPage";
 import HalamanDetail from "pages/halamanDetail";
 import Checkout from "pages/checkout";

@@ -5,15 +5,15 @@
   "imageUrls": [
     {
       "_id": "asd1293uasdads1",
-      "url": "/sanscation-dev/images/detail1.png"
+      "url": "/images/detail1.png"
     },
     {
       "_id": "asd1293uasdads1",
-      "url": "/sanscation-dev/images/detail2.png"
+      "url": "/images/detail2.png"
     },
     {
       "_id": "asd1293uasdads1",
-      "url": "/sanscation-dev/images/detail3.png"
+      "url": "/images/detail3.png"
     }
   ],
   "country": "Indonesia",
@@ -28,49 +28,49 @@
       "_id": "asd1293uasdads1",
       "qty": "3",
       "name": "bedroom",
-      "imageUrl": "/sanscation-dev/images/icons/icBed.png"
+      "imageUrl": "/images/icons/icBed.png"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "1",
       "name": "living room",
-      "imageUrl": "/sanscation-dev/images/icons/icLamp.png"
+      "imageUrl": "/images/icons/icLamp.png"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "2",
       "name": "bath room",
-      "imageUrl": "/sanscation-dev/images/icons/icBathroom.png"
+      "imageUrl": "/images/icons/icBathroom.png"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "1",
       "name": "dining room",
-      "imageUrl": "/sanscation-dev/images/icons/icDining.png"
+      "imageUrl": "/images/icons/icDining.png"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "10",
       "name": "mbps",
-      "imageUrl": "/sanscation-dev/images/icons/icwifi.png"
+      "imageUrl": "/images/icons/icwifi.png"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "2",
       "name": "units ready",
-      "imageUrl": "/sanscation-dev/images/icons/icAc.png"
+      "imageUrl": "/images/icons/icAc.png"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "2",
       "name": "refrigerator",
-      "imageUrl": "/sanscation-dev/images/icons/icKulkas.png"
+      "imageUrl": "/images/icons/icKulkas.png"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "1",
       "name": "television",
-      "imageUrl":"/sanscation-dev/images/icons/icTv.png"
+      "imageUrl":"/images/icons/icTv.png"
     }
   ],
   "activities": [
@@ -78,25 +78,25 @@
       "_id": "asd1293uasdads1",
       "name": "Kebun Park",
       "type": "Nature",
-      "imageUrl": "/sanscation-dev/images/categoryItem1.png"
+      "imageUrl": "/images/categoryItem1.png"
     },
     {
       "_id": "asd1293uasdads1",
       "name": "Water land",
       "type": "Pool",
-      "imageUrl": "/sanscation-dev/images/categoryItem2.png"
+      "imageUrl": "/images/categoryItem2.png"
     },
     {
       "_id": "asd1293uasdads1",
       "name": "Kebun Park",
       "type": "Nature",
-      "imageUrl": "/sanscation-dev/images/categoryItem3.png"
+      "imageUrl": "/images/categoryItem3.png"
     },
     {
       "_id": "asd1293uasdads1",
       "name": "Water land",
       "type": "Pool",
-      "imageUrl": "/sanscation-dev/images/categoryItem4.png"
+      "imageUrl": "/images/categoryItem4.png"
     }
   ],
   "categories": [
@@ -107,7 +107,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/sanscation-dev/images/detail-fitur1.png",
+          "imageUrl": "/images/detail-fitur1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -115,7 +115,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/sanscation-dev/images/detail-fitur2.png",
+          "imageUrl": "/images/detail-fitur2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -123,7 +123,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/sanscation-dev/images/detail-fitur3.png",
+          "imageUrl": "/images/detail-fitur3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -131,7 +131,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/sanscation-dev/images/detail-fitur4.png",
+          "imageUrl": "/images/detail-fitur4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -141,7 +141,7 @@
   ],
   "testimonial": {
     "_id": "asd1293uasdads1",
-    "imageUrl": "/sanscation-dev/images/detail-testimoni.png",
+    "imageUrl": "/images/detail-testimoni.png",
     "name": "Pelayananya Gokil Banget !",
     "rate": 4.25,
     "content": "Tinggal klik klik doang, gak ribet , eh tiba tiba kita udah traveling aja, bener bener sesuai namanya Sanscation, bakal pake Sanscation lagi buat next trip deh ... :)",
