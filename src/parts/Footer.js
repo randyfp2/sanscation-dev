@@ -71,7 +71,7 @@ export default function Footer() {
                 </Button>
               </li>
               <li className="list-group-item">
-                <span>Staycation, Tangerang, Banten</span>
+                <span>Sanscation, Tangerang, Banten</span>
               </li>
             </ul>
           </div>
