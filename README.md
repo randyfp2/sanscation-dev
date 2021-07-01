@@ -1,5 +1,5 @@
 My UI design using figma:
 https://bit.ly/3hlYuWE
 <br/>
-Live Demo :
+Live Demo (Not Responsive for mobile devices):
 https://randyfp2.github.io/sanscation-dev/
