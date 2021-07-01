@@ -9,7 +9,7 @@
       "_id": "asd1293uasdads1",
       "name": "Jung Hook Sie",
       "type": "Apartment",
-      "imageUrl": "/sanscation-dev/images/mostpick1.png",
+      "imageUrl": "/images/mostpick1.png",
       "country": "South Korea",
       "city": "Seoul Flore",
       "price": "80",
@@ -19,7 +19,7 @@
       "_id": "asd1293uasdads1",
       "name": "The People House",
       "type": "Hotel",
-      "imageUrl": "/sanscation-dev/images/mostpick2.png",
+      "imageUrl": "/images/mostpick2.png",
       "country": "Indonesia",
       "city": "Bogor",
       "price": "52",
@@ -29,7 +29,7 @@
       "_id": "asd1293uasdads1",
       "name": "House Tour",
       "type": "Rumah",
-      "imageUrl": "/sanscation-dev/images/mostpick3.png",
+      "imageUrl": "/images/mostpick3.png",
       "country": "South Korea",
       "city": "Seoul Flore",
       "price": "80",
@@ -39,7 +39,7 @@
       "_id": "asd1293uasdads1",
       "name": "Jung Hook Sie",
       "type": "Apartment",
-      "imageUrl": "/sanscation-dev/images/mostpick4.png",
+      "imageUrl": "/images/mostpick4.png",
       "country": "South Korea",
       "city": "Seoul Flore",
       "price": "80",
@@ -49,7 +49,7 @@
       "_id": "asd1293uasdads1",
       "name": "Jung Hook Sie",
       "type": "Apartment",
-      "imageUrl": "/sanscation-dev/images/mostpick5.png",
+      "imageUrl": "/images/mostpick5.png",
       "country": "South Korea",
       "city": "Seoul Flore",
       "price": "80",
@@ -64,7 +64,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/sanscation-dev/images/rumahtaman1.jpg",
+          "imageUrl": "/images/rumahtaman1.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -72,7 +72,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/sanscation-dev/images/rumahtaman2.jpg",
+          "imageUrl": "/images/rumahtaman2.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -80,7 +80,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/sanscation-dev/images/rumahtaman3.jpg",
+          "imageUrl": "/images/rumahtaman3.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -88,7 +88,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/sanscation-dev/images/rumahtaman4.jpg",
+          "imageUrl": "/images/rumahtaman4.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -102,7 +102,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/sanscation-dev/images/hotel1.png",
+          "imageUrl": "/images/hotel1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -110,7 +110,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/sanscation-dev/images/hotel2.png",
+          "imageUrl": "/images/hotel2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -118,7 +118,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/sanscation-dev/images/hotel3.png",
+          "imageUrl": "/images/hotel3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -126,7 +126,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/sanscation-dev/images/hotel4.png",
+          "imageUrl": "/images/hotel4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -140,7 +140,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/sanscation-dev/images/apart1.png",
+          "imageUrl": "/images/apart1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -148,7 +148,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/sanscation-dev/images/apart2.png",
+          "imageUrl": "/images/apart2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -156,7 +156,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/sanscation-dev/images/apart3.png",
+          "imageUrl": "/images/apart3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -164,7 +164,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/sanscation-dev/images/apart4.png",
+          "imageUrl": "/images/apart4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -174,7 +174,7 @@
   ],
   "testimonial": {
     "_id": "asd1293uasdads1",
-    "imageUrl": "/sanscation-dev/images/homepage-testimonials.png",
+    "imageUrl": "/images/homepage-testimonials.png",
     "name": "Happy Family",
     "rate": 4.55,
     "content": "Gak pake lama, gak ribet juga. Trip pake Sanscation bener bener bikin sans, bakal pake Sanscation lagi buat next trip deh ... :)",
