@@ -4,4 +4,5 @@ https://bit.ly/3hlYuWE
 Live Demo (Not Responsive for mobile devices):
 https://randyfp2.github.io/sanscation-dev/
 <br/>
-Backend/Server is available on backend branch
+Backend/Server is on development
+
